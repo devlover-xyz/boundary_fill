@@ -55,7 +55,7 @@ fn main() {
     });
 
     // Set the fill color to yellow (RGB values: [255, 255, 0])
-    let fill_color = Rgb([255, 255, 0]);
+    let fill_color = Rgb([255, 100, 100]);
 
     // Call the boundary_fill function to fill a closed area starting at coordinates (200, 200)
     boundary_fill(&mut img, 200, 200, fill_color, Rgb([0, 0, 0]));
